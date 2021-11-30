@@ -1,0 +1,25 @@
+@import '../variables/tokens.scss';
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background: $bgRed;
+}
+
+.card{
+  max-width: 380px;
+  background-color: $bgWhite;
+  padding: $p10;
+  border-radius: $p10;
+  img{
+    width: 100%;
+    height: auto;
+  }
+  p{
+    text-align: center;
+    font-family: $fontDefault;
+  }  
+}

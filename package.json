@@ -1,24 +1,24 @@
 {
-  "name": "MeliuzTech_WebPack",
+  "name": "typescript-meliuz-webpack",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev":"webpack server",
+    "dev": "webpack server",
     "build": "cross-env NODE_ENV=production webpack"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cahguimaraes/MeliuzTech_WebPack.git"
+    "url": "git+https://github.com/mrdouglasmorais/typescript-meliuz-webpack.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/cahguimaraes/MeliuzTech_WebPack/issues"
+    "url": "https://github.com/mrdouglasmorais/typescript-meliuz-webpack/issues"
   },
-  "homepage": "https://github.com/cahguimaraes/MeliuzTech_WebPack#readme",
+  "homepage": "https://github.com/mrdouglasmorais/typescript-meliuz-webpack#readme",
   "devDependencies": {
     "@babel/cli": "^7.16.0",
     "@babel/core": "^7.16.0",
@@ -27,7 +27,11 @@
     "@babel/preset-react": "^7.16.0",
     "@babel/preset-typescript": "^7.16.0",
     "@pmmmwh/react-refresh-webpack-plugin": "^0.5.2",
+    "@types/react": "^17.0.37",
+    "@types/react-dom": "^17.0.11",
+    "@types/react-router-dom": "^5.3.2",
     "babel-loader": "^8.2.3",
+    "cross-env": "^7.0.3",
     "css-loader": "^6.5.1",
     "file-loader": "^6.2.0",
     "html-webpack-plugin": "^5.5.0",
@@ -43,9 +47,8 @@
     "webpack-merge": "^5.8.0"
   },
   "dependencies": {
-    "@types/react": "^17.0.37",
-    "@types/react-dom": "^17.0.11",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^6.0.2"
   }
 }
